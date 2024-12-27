@@ -1,0 +1,75 @@
+.rightblock {
+    display: flex; /* Используем Flexbox для горизонтального расположения элементов */
+    /* Выравниваем по вертикали */
+   
+    font-size: 16px;
+    color: #ABABAB;
+    padding: 10px 12px;
+    height: 50px;
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer
+    
+}
+
+.rez {
+    text-align: right; /* Выравнивание текста внутри блока вправо */
+    white-space: nowrap; /* Принудительное отображение текста в одну строку без переноса */
+    margin: 0 20px; /* Отступы между блоками */
+    display: block;
+    width: 60%;
+}
+.footerhr {
+    width: 200px; border-top: 3px solid #32a1ce; 
+}
+.container {
+    display: flex; /* Используем Flexbox для горизонтального расположения */
+    align-items: flex-start; /* Выравниваем элементы по верхнему краю */
+    justify-content: space-between; /* Создаем пространство между элементами */
+    margin-bottom: 900px;
+    margin-top: 400px;
+}
+
+.carta {
+    width: 50%; /* Ширина карты */
+}
+
+.rightblock {
+    width: 45%; /* Ширина блока с формой */
+    padding-left: 20px; /* Отступ слева, чтобы добавить пространство между колонками */
+    box-sizing: border-box; /* Учитываем отступы в расчете ширины */
+    
+}
+
+.feedbackform h2 {
+    margin-top: 0; /* Убираем верхний отступ заголовка */
+}
+
+label {
+    display: block; /* Каждое поле будет занимать отдельную строку */
+    margin-bottom: 10px; /* Отступ между ярлыками для лучшего восприятия */
+}
+
+textarea {
+    width: 100%; /* Заполняет весь доступный размер */
+    height: 100px; /* Устанавливаем высоту текстового поля для вопросов */
+}
+
+.formfooter {
+    margin-top: 10px; /* Добавляем отступ сверху для кнопки отправки */
+}
+
+.btn {
+    background-color: #32a1ce; /* Цвет кнопки */
+    color: white; /* Цвет текста */
+    border: none; /* Убираем границу */
+    padding: 10px 20px; /* Отступы внутри кнопки */
+    cursor: pointer; /* Курсор в виде руки при наведении */
+}
+.copy {
+    color: #494949;
+    text-align: right;
+   
+}

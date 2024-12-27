@@ -1,0 +1,78 @@
+.UIButton{
+    font-size: 16px;
+    color: #ABABAB;
+    padding: 10px 12px;
+    height: 50px;
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    
+   
+    
+}
+
+.UIButton_a{
+    
+        font-size: 16px;
+        color: #E66B33;
+        padding: 10px 12px;
+        height: 40px;
+        border-radius: 6px;
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        gap: 4px;
+        background-size: auto 100%;
+    padding-left: 30px;
+    
+}
+.UIButton_b{
+    font-size: 30px;
+    color: #ABABAB;
+    
+    height: 50px;
+    width: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10%;
+    
+   
+    
+}
+
+
+
+.UIButton_big{
+   
+    padding: 10px 18px 12px 18px;
+    border: 1px #ABABAB solid;
+    border-radius: 25px;
+    background-color: #631c1c00;
+    cursor: pointer;
+}
+
+.UIButton_black{
+    background-color: #010101;
+    color:#ABABAB; 
+}
+.UIButton_caption{
+    flex-direction: column;
+}
+.UIButton_caption span {
+    font-size: 12px;
+    opacity: .8;
+}
+
+
+.UIButton_black:hover{
+    color: #010101;
+    background-color: #E66B33;
+}
+
+

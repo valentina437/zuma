@@ -1,0 +1,30 @@
+.line {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+line .line_des {
+   
+    width: 780px;
+    height: 500px;                  /* Ширина линии 100% */
+    position: relative;           /* Устанавливаем относительное позиционирование для линии */
+    z-index: 1; 
+
+}
+.line .dishes {
+    position: absolute;            /* Используем абсолютное позиционирование */
+    top: 50%;                     /* Верхний край в 50% высоты контейнера */
+    left: 50%;                    /* Левый край в 50% ширины контейнера */
+    transform: translate(-50%, -50%); /* Центрируем изображение */
+    max-width: 100%;             /* Максимальная ширина 100% контейнера */
+    max-height: 80%;              /* Максимальная высота 80% контейнера */
+    display: block;               /* Убедитесь, что изображение является блочным элементом */
+    object-fit: contain;          /* Запрещает искажение */
+z-index: 10000;
+position: relative;
+}
+
+
+
+
+

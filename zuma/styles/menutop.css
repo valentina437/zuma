@@ -1,0 +1,181 @@
+.menutop .reserve {
+    color: #E66B33;
+  
+    background-size: auto 100%;
+    padding-left: 30px;
+}
+.flag{
+    margin-left: 70px;
+}
+.container {
+    display: flex;
+    justify-content: space-around; /* Расстояние между картинками */
+    width: 100%;
+    margin-top: 180px;
+    
+
+  }
+ 
+  
+  .image-container {
+    position: relative; 
+    width: 380px;
+    height: 250px;
+  cursor: pointer;
+    background-color:  #171616;
+    transition: background-color 0.3s ease;
+    display: flex;
+  align-items: center;
+  
+  
+   
+  }
+  
+  .image-container img {
+    width: 240px; 
+  height: auto; 
+  object-fit: cover;
+  margin-left: auto; 
+  
+  
+  }
+  
+  .image-container:hover  {
+    background-color: #242323;
+    
+    
+  }
+  
+  
+  .textt {
+    position: absolute;
+    left: 22px;
+    top: 16px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 113%;
+    letter-spacing: 0.01em;
+    width: 60%;
+    color: #ABABAB;
+    z-index: 1; 
+    
+  }
+  
+  
+  .arrow {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    transition: left 0.3s ease;
+    transform: scale(0.2);
+    width: 300px;
+  height: auto;
+    background-color: transparent; 
+    padding: 0; 
+    border-radius: 0px;
+    
+  }
+  
+  .image-container:hover .arrow {
+    left: 50px; 
+    
+   
+  }
+  .h2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 135%;
+    letter-spacing: 0.01em;
+    color: #ABABAB;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 360px;
+    margin-top: 0px;
+  }
+  .my-word {
+    text-align: left;
+  }
+  
+  .restoran {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-gap: 100px; 
+    align-items: start;
+    margin-top: 70px;
+    
+  }
+  
+  
+  
+ 
+  
+  .restoran_header {
+    margin-bottom: 20px; 
+    
+  }
+ 
+  
+  .restoran_texxt {
+    
+    margin-bottom: 35px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 171%;
+    letter-spacing: 0.01em;
+    width: 75%;
+    align-items: flex-start;
+    
+  }
+  h3 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 113%;
+    letter-spacing: 0.01em;
+    margin-bottom: 10px;
+    
+  }
+  .regs {
+    position: relative;
+    width: 500px; 
+    height: 200px; 
+    margin: 0px;
+    width: 55%;
+    height: 100%;
+    display: block;
+    margin-left: 300px;
+    margin-right: auto;
+    margin-top: 20px;
+
+  
+    
+  }
+
+  
+  .text_2{
+    margin-bottom: 35px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 171%;
+    letter-spacing: 0.01em;
+    display: flex;              
+    flex-direction: column;     
+    align-items: center;         
+    justify-content: center;    
+    text-align: justify;        
+    margin: 10px; 
+    max-width: 590px;
+    margin-top: 0px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+  
+  
+  

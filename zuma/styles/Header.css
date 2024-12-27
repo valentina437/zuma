@@ -1,0 +1,48 @@
+.Header{
+    margin: 16px 30px;
+}
+.Header__content{
+    display: flex;
+  
+    align-items: center;
+    
+    
+    background: linear-gradient(180deg, #0B0A0A 80%, rgba(0, 0, 0, 0) 100%);
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.Header__content-navigation{
+    display: flex;
+    align-items: center;
+}
+.Header__content-user{
+    display: flex;
+    align-items: center;
+    
+} 
+.Header-navigation__logo{
+  
+    cursor: pointer;
+    padding-top: 5px;
+    padding-left: 3px;
+    
+}
+
+.Header__content_1{
+    display: flex;
+  
+    align-items: center;
+    
+    
+    background: linear-gradient(180deg, #0B0A0A 100%, rgba(0, 0, 0, 0) 100%);
+    
+    left: 0;
+    top: 0;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
